@@ -130,20 +130,20 @@ Node *deleteFromGivenNode(string givenNode, Node *head){
 }
 int main()
 {
-    Node *head = createNode ("Sanctuary by Joji");
+    Node *head = createNode ("Babalik sayo by Moira Torre");
     traverse(head);
-    head = insertAtEnd("flowers by hana hope", head);
+    head = insertAtEnd("Kung siya man by Tj Monterde", head);
     traverse(head);
-    head = insertAtEnd("Feel it by d4vd", head);
+    head = insertAtEnd("B4 I LRT YOU GO by Ryuoji", head);
     traverse(head);
-    head = insertAtEnd("Ma Meilleure Ennemie by Arcane,Stromae,Pomme", head);
+    head = insertAtEnd("Ikaw ra gang by Dj Rowel", head);
     traverse(head);
     
-    head = instertAtBeginning ("Your Color by HOYO-MiX", head);
+    head = instertAtBeginning ("Ikaw lang by NOBITA", head);
     traverse(head);
-    head = instertAtBeginning ("Color Your NIght by Chewie Melodies,Pealeaf", head);
+    head = instertAtBeginning ("Panalangin by APO, Hiking, Society ", head);
     traverse(head);
-    head = instertAtBeginning ("Sunflower by Post Malone,Swae Lee", head);
+    head = instertAtBeginning ("I Wanna Be Yours", head);
     traverse(head);
     head = instertAtBeginning ("If I Can Stop One Heart From Breaking by Robin,HOYO-MiX,Chevy", head);
     traverse(head);
